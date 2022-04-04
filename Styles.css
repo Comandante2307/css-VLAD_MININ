@@ -1,0 +1,187 @@
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+a {
+    color: #0f141e;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(255, 187, 0) ;
+}
+a:visited {
+    color: green;
+}
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+
+
+}
+
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.info p {
+    color: #88938f;
+    margin: 0;
+}
+/* BOX MODE */
+.container {
+    width: 750px;
+    margin: auto;
+    padding-top: 30px;
+/* 
+}
+.social {
+background: rgb(166, 255, 0);
+padding: 15px;
+border: 5px solid red;
+margin: 20px;
+
+}
+.box-model > div {
+    float: left;
+    background: #0f141e;
+    height: 200px;
+    width: 25%;
+    border: 5px solid rgb(166, 255, 0);
+    box-sizing: border-box; */
+
+
+
+}
+.bg-yellow {
+     background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+.card {
+    padding: 15px 20px;
+    
+    margin-bottom: 20px ;
+    border-radius: 20px;
+}
+.info {
+    display:flex;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+.list li {
+    color: #88938f;
+    margin-bottom: 10px;
+
+}
+
+.table {
+    width: 100%;
+
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #88938f;
+    padding-bottom: 10px;
+}
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+
+
+}
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #88938f
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #0f141e;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50% ;
+    margin-right: 20px;
+
+}
+
+.btn {
+    color: #ffffff;
+    padding: 15px 20px;
+    background: #0f141e;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn :hover {
+    opacity: 0.9;
+
+}
+/* POSITION */
+
+/* .positon {
+    position: relative;
+   border: 4px solid black;
+   margin-top: 40px;
+   padding: 20px;
+   height: 300px;
+}
+
+.box {
+position: fixed;
+top: 0px;
+right: 0px;
+
+width: 100%;
+height: 50px;
+background: lightcoral;
+} */
